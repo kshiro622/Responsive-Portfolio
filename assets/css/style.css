@@ -71,6 +71,7 @@ a:hover {
 	float: left;
 	background: #ffffff;
 	margin: auto;
+	margin-bottom: 20px;
 	max-width: 650px;
 	padding: 25px;
 	padding-bottom: 10px;
@@ -95,6 +96,7 @@ h2 {
 .photo_of_me {
 	margin: 25px 20px 0px 0px;
 	float: left;
+	height: 260px;
 }
 
 p {
@@ -159,6 +161,7 @@ button:hover {
 
 .image {
 	margin-top: 30px;
+	height: 186px;
 }
 
 .banner {
@@ -208,4 +211,160 @@ footer {
 	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
 }
 
+@media screen and (max-width: 980px) {
+	.header_nav {
+		width: 80%;
+	}
 
+	h1 {
+		width: 192px;
+	}
+
+	.content {
+		width: 80%;
+	}
+
+	.main {
+		width: 55%;
+	}
+
+	.photo_of_me {
+		width: 100%;
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	input, textarea {
+		width: 100%;
+	}
+
+	.section1, .section2, .section3, .section4, .section5 {
+		display: block;
+		padding: 0px;
+		width: 100%;
+		height: auto;
+	}
+
+	.banner {
+		width: 38.5%;
+		height: auto;
+	}
+
+	.image {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.header_nav {
+		width: 80%;
+	}
+
+	.content {
+		width: 80%;
+	}
+
+	.main {
+		width: 100%;
+	}
+
+	.photo_of_me {
+		width: 50%;
+		height: auto;
+	}
+
+	.connect {
+		min-width: 100%;
+		margin-bottom: 20px;
+	}
+
+	input, textarea {
+		width: 100%;
+	}
+
+.section1, .section2, .section3, .section4, .section5 {
+	display: inline;
+}
+
+.section1, .section3, .section5 {
+	margin-right: 5%;
+}
+
+.image {
+/*	display: inline;*/
+	width: 47%;
+	height: auto;
+}
+
+.banner {
+	width: 34.5%;
+	line-height: 30px;
+	margin-top: 140px;
+}
+
+@media screen and (max-width: 640px) {
+
+	.header_nav {
+		overflow: auto;
+		width: 100%;
+		position: static;
+	}
+
+ 	h1 {
+		float: none;
+		width: 100%;
+	}
+
+	nav {
+		clear: both;
+		background-color: white;
+		width: 100%;
+		line-height: 40px;
+		text-align: center;
+	}
+
+	.content {
+		width: 70%;
+	}
+
+	.main {
+		float: none;
+		width: 100%;
+		margin-top: 40px;
+	}
+
+	.photo_of_me {
+		width: 100%;
+		height: auto;
+	}
+
+	.connect {
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	input, textarea {
+		width: 100%;
+	}
+
+.section1, .section2, .section3, .section4, .section5 {
+		display: block;
+		padding: 0px;
+		width: 100%;
+		height: auto;
+	}
+
+	.banner {
+		width: 62%;
+		line-height: 40px;
+	}
+
+	.image {
+		width: 100%;
+		height: auto;
+	}
+
+}
