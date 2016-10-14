@@ -1,1 +1,3 @@
 # Responsive-Portfolio
+
+This portfolio uses media queries to allow site to respond to different screen resolutions, specifically the layout of the site responds to going below a width of 980px, 768px and 640px. I wanted the images to change in size as the screen resolution changed, but I had trouble getting the banner to behave like the images (doesn't re-size exactly in sync). I tried clearfixing the parent div, and using width: 100%; with height: auto;, but wasn't sure where to go from there.
